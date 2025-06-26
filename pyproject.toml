@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prodigy_cs_05"
+version = "0.1.0"
+description = "Develop a simple image encryption tool using pixel manipulation."
+authors = ["Tanvi228-yadav <your-email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.3.0"
+# Add other dependencies here, for example:
+# pillow = "^10.0.0"   # If you use Pillow for image processing
+
+[tool.poetry.dev-dependencies]
+# Add your dev dependencies here (pytest, etc.)
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
