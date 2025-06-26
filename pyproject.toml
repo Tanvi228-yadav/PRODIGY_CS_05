@@ -2,16 +2,17 @@
 name = "prodigy_cs_05"
 version = "0.1.0"
 description = "Develop a simple image encryption tool using pixel manipulation."
-authors = ["Tanvi228-yadav <your-email@example.com>"]
+authors = ["Tanvi228-yadav <yadavtanvi536@gmail.com>"]
 package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
 flask = "^2.3.0"
-# pillow = "^10.0.0"   # Uncomment if you use Pillow for image processing
+gunicorn = "^21.2.0"
+pillow = "^10.0.0"   # Pillow is recommended for image processing
 
 [tool.poetry.group.dev.dependencies]
-# Add your dev dependencies here, e.g. pytest = "^8.0.0"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
