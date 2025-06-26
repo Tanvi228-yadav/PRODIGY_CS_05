@@ -9,8 +9,7 @@ Packet Sniffer Web Application
 
 **Live Demo:** 
 Run the app locally with python or poetry.
-Open [http://localhost:5000 in your browser.](http://127.0.0.1:5000)
-Try out all features as a live demo on your machine.
+
 
 ---
 
